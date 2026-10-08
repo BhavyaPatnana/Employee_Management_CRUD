@@ -20,7 +20,7 @@ function Update()
 
     const submit = async (e) =>
     {
-        e.preventDefault();
+       e.preventDefault();
         try
         {
         const result = await axios.post("http://localhost:5588/api/user/update",form,{withCredentials:true})
